@@ -1,0 +1,16 @@
+{
+  "name": "spellcorrecter",
+  "version": "1.0.0",
+  "description": "A show of my coding prowess to the folks at Disqus.",
+  "main": "disqus.js",
+  "scripts": {
+    "spellchecker": "node spellchecker.js",
+    "wrongify": "node wrongify.js",
+    "project": "node wrongify.js | node spellchecker.js"
+  },
+  "author": "Massimo Siboldi",
+  "license": "ISC",
+  "dependencies": {
+    "levenshtein": "^1.0.5"
+  }
+}
